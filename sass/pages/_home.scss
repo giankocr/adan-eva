@@ -1,10 +1,4 @@
-.page-landing-text {
-	width: 80%;
-	margin: 0 auto;
-	display: block;
-}
-
-#gform_2 .gform_footer.top_label:before {
+.landing-row-2 .gform_footer.top_label:before {
 	content: '2. OBTENÉ EL CÓDIGO';
 	text-align: center;
 	margin: 8% auto;
@@ -15,20 +9,23 @@
 	color: $black-color;
 }
 
-img.wp-image-1179.size-full.instrucciones-pop-up.aligncenter.pum-trigger {
+.landing-row-1 .et_pb_bg_layout_light.et_pb_text_align_left p {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+.landing-row-2 img.instrucciones-pop-up {
 	margin: 5% auto;
 }
 
-img.wp-image-1181.alignnone.size-full.aligncenter {
+.landing-row-2 img.alignnone.size-full.aligncenter {
 	margin: 1% auto;
 }
 
-li#field_2_7 {
-	text-align: center !important;
-	font-family: "Open Sans", Arial, sans-serif !important;
-}
 
-#gform_submit_button_2 {
+
+.landing-row-2 #gform_submit_button_2 {
 	text-align: center;
 	margin: 0 auto !important;
 	display: block;
@@ -46,12 +43,7 @@ ul#input_2_10 {
 	margin-top: -10%;
 }
 
-.et_pb_row.et_pb_row_0 .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left p {
-	width: 40%;
-	margin: 0 auto;
-	display: block;
-	font-size: 18px;
-}
+
 
 img#FB {
 	margin: 5% auto;
@@ -61,7 +53,7 @@ li#field_2_7 h2 {
 	text-transform: uppercase;
 }
 
-input[id*="input_2_"] {
+.landing-row-2 input[id*="input_2_"] {
 	padding: 15px 5px !important;
 	width: 80% !important;
 	margin: 0 auto !important;
@@ -116,14 +108,14 @@ input::-webkit-input-placeholder {
 	margin: 0px 0 0;
 }
 
-@media only screen and (max-width: 425px) {
-	.et_pb_module.et_pb_image.et_pb_image_0 img {
+@media only screen and (max-width: 980px) {
+	.landing-row-1 .et_pb_image.et_pb_image_0 img {
 		margin-top: -10%;
-		width: 80%;
+		width: 100%;
 	}
 
-	.et_pb_row.et_pb_row_0 .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left p {
-		width: 80%;
+	.landing-row-1 .et_pb_bg_layout_light.et_pb_text_align_left p {
+		width: 100% !important;
 		margin: 0 auto;
 		display: block;
 	}
