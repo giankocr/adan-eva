@@ -57,17 +57,18 @@ return '
  *
  * @author Giancarlos Villalobos <gian@gianko.com>
  */
-// add_action( 'gform_after_submission', 'trigger_action', 10, 2 );
-// function trigger_action( $entry, $form ) {
+ add_action( 'gform_after_submission', 'trigger_action', 10, 2 );
+ function trigger_action( $entry, $form ) {
 		
-//         $file_path = get_stylesheet_directory() . '/codes_ubereats.txt';
-//         $contents = file_get_contents($file_path);
-//         $first_line = file($file_path)[0];
-//         $line_lenght =  strlen($first_line);
-//         file_put_contents($file_path, substr($contents, $line_lenght));
+         $file_path = get_stylesheet_directory() . '/codes_glovo.txt';
+         $contents = file_get_contents($file_path);
+         $first_line = file($file_path)[0];
+         $line_lenght =  strlen($first_line);
+         file_put_contents($file_path, substr($contents, $line_lenght));
 
-//         echo   "<p>{$$first_line}</p>";
-// }
+         echo   "<h2>NÚMERO DE CÓDIGO</h2><p>{$$first_line}</p>";
+ }
+
 
 
 
