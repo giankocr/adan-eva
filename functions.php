@@ -66,7 +66,7 @@ return '
          $line_lenght =  strlen($first_line);
          file_put_contents($file_path, substr($contents, $line_lenght));
 
-         echo   "<h2>NÚMERO DE CÓDIGO</h2><p>{$$first_line}</p>";
+         echo   '<h2 style="text-align: center;">NÚMERO DE CÓDIGO</h2><p>{$$first_line}</p>';
  }
 
 
