@@ -1,0 +1,33 @@
+.mobile_nav.opened .mobile_menu_bar:before{content:'\4d'}
+:not(.page-home-section-1) [class*="page-"] div.et_pb_section.et_pb_section_0 h1{font-size:80px;letter-spacing:-3px}
+.drop-shadow{-webkit-box-shadow:0 0 8px rgba(0,0,0,0.25);box-shadow:0 0 8px rgba(0,0,0,0.25);-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;-webkit-transform:scale(1.05);transform:scale(1.05);background-color:#564133}
+:root{font-size:18px;font-family:"Open Sans",Arial,sans-serif !important}
+p,li,a,em{line-height:1.5;font-weight:400;font-family:"Open Sans",Arial,sans-serif !important}
+code{font-family:'Courier New',Courier,monospace}
+h1,h2,h3,h4,h5,h6{font-family:"Open Sans",Arial,sans-serif !important;font-size:24px !important;text-transform:uppercase !important;font-weight:700 !important;color:black !important}
+.page-landing-text{width:80%;margin:0 auto;display:block}
+#gform_2 .gform_footer.top_label:before{content:'2. OBTENÉ EL CÓDIGO';text-align:center;margin:8% auto;display:block;font-size:24px;text-transform:uppercase !important;font-weight:700;color:black}
+img.wp-image-1179.size-full.instrucciones-pop-up.aligncenter.pum-trigger{margin:5% auto}
+img.wp-image-1181.alignnone.size-full.aligncenter{margin:1% auto}
+li#field_2_7{text-align:center !important;font-family:"Open Sans",Arial,sans-serif !important}
+#gform_submit_button_2{text-align:center;margin:0 auto !important;display:block}
+label#label_2_10_1{width:auto !important}
+ul#input_2_10{text-align:center}
+.et_pb_module.et_pb_image.et_pb_image_0 img{margin-top:-10%}
+.et_pb_row.et_pb_row_0 .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left p{width:40%;margin:0 auto;display:block;font-size:18px}
+img#FB{margin:5% auto}
+li#field_2_7 h2{text-transform:uppercase}
+input[id*="input_2_"]{padding:15px 5px !important;width:80% !important;margin:0 auto !important;display:block !important;font-size:18px !important}
+li#field_2_10{font-size:18px}
+.gform_wrapper div.charleft.warningTextareaInfo{display:none}
+.gform_wrapper div.validation_error{font-size:18px !important;font-weight:normal !important;color:#f15a29 !important}
+.gform_wrapper li.gfield.gfield_error{border:0 !important;background:none !important}
+.gform_wrapper div.validation_error{border:0}
+.gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),.gform_wrapper li.gfield_error textarea{border:1px solid #f15a29 !important}
+.gform_wrapper .gfield_error .gfield_label,.gform_wrapper .validation_message{display:none}
+input::-webkit-input-placeholder{text-align:center;font-size:18px}
+.gform_validation_error input::-webkit-input-placeholder{color:#f15a29}
+.gform_wrapper .gform_footer{padding:0 0 10px;margin:0}
+@media only screen and (max-width:425px){.et_pb_module.et_pb_image.et_pb_image_0 img{margin-top:-10%;width:80%}
+.et_pb_row.et_pb_row_0 .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left p{width:80%;margin:0 auto;display:block}
+}

@@ -1,0 +1,88 @@
+// Constants
+$BASE_URL: '/wp-content/themes/adan-eva';
+
+// Theme Colors
+$primary-color: #564133;
+$secondary-color: #a36209;
+$secondary--dark: #4D392F;
+$secondary-light: #BEAC8C;
+$black-color: black;
+$white-color: white;
+
+// Theme Font
+$brand-primary-font : 'gotham',
+Helvetica,
+Arial,
+Lucida,
+sans-serif;
+
+$brand-secondary-font: 'Brandon',
+Helvetica,
+Arial,
+Lucida,
+sans-serif;
+
+
+:not(.page-home-section-1) [class*="page-"] div.et_pb_section.et_pb_section_0 h1 {
+	font-size: 80px;
+	letter-spacing: -3px;
+}
+
+
+@media (max-width: 980px) {}
+
+
+// Breakpoints
+$m: 1070px;
+$sm: 900px;
+$xs: 425px;
+
+// Dynamic Classes
+.drop-shadow {
+	box-shadow: 0 0 8px rgba(0, 0, 0, .25);
+	transition: all .2s ease-in-out;
+	transform: scale(1.05);
+	background-color: $primary-color;
+}
+
+// Typos
+
+:root {
+	font-size: 18px;
+	font-family: "Open Sans",
+		Arial,
+		sans-serif !important;
+}
+
+
+p,
+li,
+a,
+em {
+	//	font-family: $brand-secondary-font;
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: "Open Sans",
+		Arial,
+		sans-serif !important;
+}
+
+
+code {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Open Sans",
+		Arial,
+		sans-serif !important;
+	font-size: 24px !important;
+	text-transform: uppercase !important;
+	font-weight: 700 !important;
+	color: $black-color !important;
+}
